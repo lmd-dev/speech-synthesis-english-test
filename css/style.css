@@ -1,0 +1,67 @@
+﻿body {
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background: url(../img/background.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+input {
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    background-color: #0d8c9f;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s background-color;
+}
+
+button:hover {
+    background-color: #11a2b7
+}
+
+#app-content
+{
+    width: 90%;
+    max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+    color:#0a5f6c;
+}
+
+#txt-recognize {
+    text-align: center;
+}
+
+#actions {
+    text-align: center;
+    margin-top: 10px;
+}
